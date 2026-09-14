@@ -168,7 +168,8 @@ void boardInit()
 
   usbChargerInit();
 #if !defined(POWER_LED_BLUE)
-  ledBlue();
+// ledBlue();
+  ledMagenta();
 #else
   ledGreen();
 #endif
