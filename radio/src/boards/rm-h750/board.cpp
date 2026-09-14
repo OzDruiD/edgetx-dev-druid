@@ -171,7 +171,8 @@ void boardInit()
 // ledBlue();
   ledMagenta();
 #else
-  ledGreen();
+  ledMagenta();
+//  ledGreen();
 #endif
 
   ExtFLASH_InitRuntime();
